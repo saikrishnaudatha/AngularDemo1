@@ -1,0 +1,12 @@
+<h1> My Angular Demo</h1>
+<h2>Welcome{{'Title is'+title}}</h2>
+<h2>{{10+num}}</h2>
+<h1>{{title?title:'No Title'}}</h1>
+<img src="{{imagepath}}">
+<img [src]="imagepath">
+<h3>{{getname()}}</h3>
+<h3>{{getname1()}}</h3>
+<button class="boldclass" [disabled]="isdisabled">Click</button>
+<button [class]="mystyle" bind-disabled='isdisabled'>Bind</button>
+<button [class.italiclass]="applyStyle">CheckStyle</button>
+<my-employee></my-employee>
